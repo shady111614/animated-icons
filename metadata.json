@@ -1,0 +1,5 @@
+{
+  "name": "SVG Animator AI",
+  "description": "Describe an icon and an animation. This AI-powered tool will first generate a static SVG icon, then bring it to life based on your animation prompt, in Arabic.",
+  "requestFramePermissions": []
+}
