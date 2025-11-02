@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SVG Animator AI | إنشاء أيقونات متحركة مذهلة</title>
+  <title>محرك الأيقونات المتحركة بالذكاء الاصطناعي</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     /* Custom scrollbar for better aesthetics in dark mode */
@@ -11,7 +12,7 @@
       width: 8px;
     }
     ::-webkit-scrollbar-track {
-      background: #111827; /* bg-gray-900 */
+      background: #1f2937; /* bg-gray-800 */
     }
     ::-webkit-scrollbar-thumb {
       background: #4f46e5; /* bg-indigo-600 */
@@ -25,20 +26,9 @@
       height: 100%;
       object-fit: contain;
     }
-     @keyframes fade-in {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    .animate-fade-in {
-      animation: fade-in 0.5s ease-out forwards;
-    }
-     .bg-grid-pattern {
-      background-image:
-        linear-gradient(to right, rgba(49, 46, 129, 0.2) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(49, 46, 129, 0.2) 1px, transparent 1px);
-      background-size: 2rem 2rem;
-    }
   </style>
+
+<link rel="stylesheet" href="/index.css">
 <script type="importmap">
 {
   "imports": {
@@ -49,10 +39,9 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <script type="module" crossorigin src="/assets/index-D3NBO9Z1.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans">
   <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
 </body>
 </html>
